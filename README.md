@@ -3,7 +3,7 @@
 A simple command-line downloader written in C for downloading files over HTTPS using OpenSSL library and sockets. This project demonstrates the use of SSL/TLS for secure communications and includes features for progress tracking during downloads.
 
 > When I first started using Linux almost 1.5 years ago, I had problem with downloads. 
-> I never liked using a browser downloader so after some research I came across the XDG program which in of itself is a decent program, but a little out of date. 
+> I never liked using a browser downloader so after some research I came across the Xtreme Download Manager program which in of itself is a decent program, but a little out of date. 
 > So recently I decided to build a simple command-line downloader which I can give the link to it and it will just download the file, and here it is!
 > Maybe I'll consider creating a GUI version of this program in the future.
 
