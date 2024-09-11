@@ -31,7 +31,7 @@ A simple command-line downloader written in C for downloading files over HTTPS u
 
 1. **Clone the repository:**
 ```
-bash
+> bash
 git clone https://github.com/wistahm/cli-downloader.git
 ```
 
@@ -47,12 +47,8 @@ sudo apt-get install libssl-dev
 sudo pacman -S openssl
 ```
 
-- On macOS:
-```
-brew install openssl
-```
-
 3. **Build the project:**
+
 You can simply run the included makefile to build it.
 ```
 make
