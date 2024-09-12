@@ -74,9 +74,14 @@ You can use a custom name for the downloaded file using this command:
 
 ### Example
 
-To download a file:
+To download a file without a custom name:
 ```
-./cldl https://example.com/file.zip my_file.zip
+./cldl https://example.com/file.zip
+```
+
+Download a file with custom name:
+```
+./cldl https://example.com/file.pdf my_file.pdf
 ```
 
 ## Contributing
