@@ -70,7 +70,7 @@ You can use a custom name for the downloaded file using this command:
 ```
 ./cldl <URL> <custom_name>
 ```
-(make sure to include the actual file extension after the custom name, otherwise there is a chance that the file will be corrupted)
+**(make sure to include the actual file extension after the custom name, otherwise there is a chance that the file will be corrupted)**
 
 ### Example
 
@@ -83,6 +83,8 @@ Download a file with custom name:
 ```
 ./cldl https://example.com/file.pdf my_file.pdf
 ```
+
+By using the command above, the `file.pdf` file will be saved as `my_file.pdf` in the current directory.
 
 ## Contributing
 
