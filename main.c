@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-// signal handler for ctrl + c (SIGINT) to terminate download with a message
+// signal handler for Ctrl+C (SIGINT) to terminate download with a message
 void handle_sigint(int signum) {
   printf("\nDownload terminated.\n");
   exit(0);
