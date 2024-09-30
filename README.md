@@ -31,7 +31,6 @@ A simple command-line downloader written in C for downloading files over HTTPS u
 
 1. **Clone the repository:**
 ```
-> bash
 git clone https://github.com/wistahm/cli-downloader.git
 ```
 
