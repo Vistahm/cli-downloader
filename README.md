@@ -89,7 +89,7 @@ By using the command above, the `file.pdf` file will be saved as `my_file.pdf` i
 
 For canelling the download process all you have to do it just pressing `Ctrl + C`.
 
-For pausing, I tried to implement the `Ctrl + P` method but it didn't work because `SSL_read` is a blocking call and it does not natively support pausing. Although I managed make it somehow work by freezing the terminal, but the download process itself couldn't be stopped. I even tried `Ctrl + Z` which is terminal's default for suspend signal (`SIGTSTP`), but that didn't work either.
+For pausing, I tried to implement the `Ctrl + P` method but it didn't work because `SSL_read` is a blocking call and it does not natively support pausing. Although I managed make it somehow work by freezing the terminal, but the download process itself couldn't be stopped.
 
 ## Contributing
 
