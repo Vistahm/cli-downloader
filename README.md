@@ -2,11 +2,6 @@
 
 A simple command-line downloader written in C for downloading files over HTTPS using OpenSSL library and sockets. This project demonstrates the use of SSL/TLS for secure communications and includes features for progress tracking during downloads.
 
-> When I first started using Linux almost a year ago, I had problem with downloads. 
-> I never liked using a browser downloader so after some research I came across the Xtreme Download Manager program which in of itself is a decent program, but a little out of date. 
-> So recently I decided to build a simple command-line downloader which I can give the link to it and it will just download the file, and here it is!
-> Maybe I'll consider creating a GUI version of this program in the future.
-
 ## Table of Contents
 
 - [Features](#features)
@@ -88,8 +83,6 @@ By using the command above, the `file.pdf` file will be saved as `my_file.pdf` i
 ### Cancellation and Pause
 
 For canelling the download process all you have to do it just pressing `Ctrl + C`.
-
-For pausing, I tried to implement the `Ctrl + P` method but it didn't work because `SSL_read` is a blocking call and it does not natively support pausing. Although I managed make it somehow work by freezing the terminal, but the download process itself couldn't be stopped.
 
 ## Contributing
 
