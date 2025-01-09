@@ -84,6 +84,4 @@ By using the command above, the `file.pdf` file will be saved as `my_file.pdf` i
 
 For canelling the download process all you have to do it just pressing `Ctrl + C`.
 
-## Contributing
-
-Contributions are welcome. Please open an issue or submit a pull request for any improvements or bug fixes. Cheers!
+Cheers!
