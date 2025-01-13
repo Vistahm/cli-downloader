@@ -44,7 +44,7 @@ int create_socket(const char *hostname, int port) {
   return sock;
 }
 
-// send an https request GET request
+// send an http request GET request
 void send_https_request(SSL *ssl, const char *hostname, const char *path) {
   char request[1024];
 
