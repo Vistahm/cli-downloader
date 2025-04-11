@@ -80,7 +80,7 @@ Download a file with custom name:
 
 By using the command above, the `file.pdf` file will be saved as `my_file.pdf` in the current directory.
 
-### Cancellation and Pause
+### Cancellation
 
 For canelling the download process all you have to do it just pressing `Ctrl + C`.
 
