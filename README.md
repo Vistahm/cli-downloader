@@ -8,12 +8,6 @@ A simple command-line downloader written in C for downloading files over HTTPS u
 - Display a progress bar with download status.
 - Support with variuos file sizes with formatted output.
 
-## Requirements
-
-- C compiler (e.g. GCC)
-- OpenSSL library
-- Make (optional, for building)
-
 ## Installation
 
 1. **Clone the repository:**
